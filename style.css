@@ -1,0 +1,48 @@
+/* ✅ تنسيق عام للموقع */
+body {
+    background-color: #0A192F; /* أزرق غامق */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+/* ✅ تنسيق عنوان البداية */
+h1 {
+    font-size: 24px;
+}
+
+/* ✅ تنسيق زر "اكتشف الآن" */
+button {
+    background-color: #FFD700; /* أصفر */
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FFC107; /* أصفر غامق عند المرور عليه */
+}
+
+/* ✅ عند ظهور المفاجأة، يتم تغيير الخلفية */
+.dark-mode {
+    background-color: #333; /* رمادي غامق */
+    color: white;
+}
+
+/* ✅ تنسيق النص بعد ظهور المفاجأة */
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* ✅ تنسيق الألعاب النارية */
+.fireworks img {
+    width: 100px;
+    margin: 10px;
+}
